@@ -5,7 +5,7 @@ Generics TypeScript এর একটি powerful feature, যা reusable কি
 
 ---
 
-### ❌ Problem Without Generics
+###  Problem Without Generics
 
 Without generics, developers often use `any`, যা type safety নষ্ট করে দেয়।
 
@@ -19,7 +19,7 @@ function identity(value: any) {
 
 ---
 
-### ✅ Solution With Generics
+###  Solution With Generics
 
 Generics ব্যবহার করলে function flexible হয় কিন্তু type safe থাকে।
 
@@ -38,11 +38,11 @@ identity<string>("Hello");
 identity<number>(10);
 ```
 
-👉 একই function বিভিন্ন type এর জন্য কাজ করছে, কিন্তু TypeScript type নিশ্চিত করছে।
+ একই function বিভিন্ন type এর জন্য কাজ করছে, কিন্তু TypeScript type নিশ্চিত করছে।
 
 ---
 
-### 🧠 Benefits of Generics
+###  Benefits of Generics
 
 * Code reuse করা যায়
 * Type safety বজায় থাকে
@@ -51,13 +51,13 @@ identity<number>(10);
 
 ---
 
-### 🚀 Real-world Use Case
+###  Real-world Use Case
 
 Generics React, API handling, Redux, and backend services এ ব্যাপকভাবে ব্যবহার হয়। এটি large-scale application সহজে manage করতে সাহায্য করে।
 
 ---
 
-### 🧠 Conclusion
+###  Conclusion
 
 Generics TypeScript কে powerful করে কারণ:
 
@@ -65,5 +65,5 @@ Generics TypeScript কে powerful করে কারণ:
 * Type safety বজায় থাকে
 * Flexible কিন্তু controlled code পাওয়া যায়
 
-👉 তাই modern TypeScript development এ Generics খুব গুরুত্বপূর্ণ concept।
+ তাই modern TypeScript development এ Generics খুব গুরুত্বপূর্ণ concept।
 
